@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set default base URL for all axios requests
-axios.defaults.baseURL = 'https://book-review-platform-1-nks5.onrender.com/api';
+axios.defaults.baseURL = 'https://book-review-platform-1-nks5.onrender.com'; 
 
 // Add request interceptor to include credentials
 axios.interceptors.request.use(
