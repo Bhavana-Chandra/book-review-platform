@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://book-review-platform-iota.vercel.app'],
   credentials: true,
 }));
 app.use(express.json());
